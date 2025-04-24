@@ -3,9 +3,6 @@ from dash import Dash, html
 import base64
 
 # importing files
-import Capstone_Milestone_3_Poisson
-import Capstone_Milestone_3_Random_Forest
-import Capstone_Milestone_3_DNN
 import Capstone_Milestone_3_Feature_Engineering
 pdf_doc = 'Capstone_Milestone_3_Documentation.pdf'
 encoded_pdf = base64.b64encode(open(pdf_doc, 'rb').read()).decode()
